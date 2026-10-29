@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081a37">
+  <meta name="description" content="Explore the Sri Lanka Customs dashboard portfolio developed by Creative Web Technology.">
+  <title>Dashboard Portfolio | Sri Lanka Customs</title>
+  <link rel="icon" href="assets/customs-logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="catalog.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#appMain">Skip to content</a>
+  <div class="site-shell">
+    <div class="mobile-shade" id="mobileShade" hidden></div>
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <div class="sidebar-content">
+        <a class="brand-lockup" href="index.html" data-nav="overview" aria-label="Sri Lanka Customs showcase home">
+          <div class="brand-crest"><img src="assets/customs-logo.png" alt="Sri Lanka Customs emblem"></div>
+          <div class="brand-words"><strong>SRI LANKA<br>CUSTOMS</strong><span>DASHBOARD PORTFOLIO</span></div>
+        </a>
+        <div class="side-rule"></div>
+        <p class="side-label">WORKSPACE</p>
+        <nav class="main-nav" id="mainNav" aria-label="Sections">
+          <button class="side-link is-active" data-nav="overview" type="button"><span class="nav-icon" data-icon="layout-dashboard"></span><span>Overview</span><span class="side-link-accent"></span></button>
+          <button class="side-link" data-nav="library" type="button"><span class="nav-icon" data-icon="grid"></span><span>Dashboard library</span><span class="nav-count">16</span></button>
+        </nav>
+        <div class="side-rule dim"></div>
+        <p class="side-label">COLLECTIONS</p>
+        <nav class="side-collections" id="sideCollections" aria-label="Dashboard categories"></nav>
+      </div>
+      <div class="sidebar-footer"><span class="footer-pretext">DESIGNED &amp; DEVELOPED BY</span><div class="footer-logo"><img src="assets/cwt-logo.png" alt="Creative Web Technology"></div></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar">
+        <div class="topbar-left"><button type="button" class="icon-btn menu-btn" data-action="menu" aria-label="Open navigation"><span data-icon="menu"></span></button><div class="top-crumb" id="topCrumb"><span class="crumb-sub">PORTFOLIO</span><span class="crumb-slash">/</span><b>Overview</b></div></div>
+        <div class="topbar-right">
+          <button class="global-search-trigger" type="button" data-action="search" aria-label="Search dashboards and report pages"><span data-icon="search"></span><span class="search-placeholder">Search dashboards and pages...</span><kbd>⌘ K</kbd></button>
+          <span class="top-separator"></span>
+          <button class="icon-btn" type="button" id="themeButton" data-action="theme" aria-label="Switch color theme" title="Switch color theme"><span data-icon="moon"></span></button>
+          <div class="environment-label"><i></i><span>SHOWCASE</span></div>
+        </div>
+      </header>
+      <main id="appMain" tabindex="-1" aria-live="off"></main>
+      <footer class="site-footer"><span>© 2026 Sri Lanka Customs dashboard portfolio</span><span>Visual showcase only <span class="footer-dot">·</span> Report screenshots are not live Power BI reports</span></footer>
+    </div>
+  </div>
+  <div class="dialog-backdrop" id="commandDialog" hidden role="presentation">
+    <section class="command-dialog" role="dialog" aria-modal="true" aria-label="Search dashboards and pages">
+      <div class="command-input-row"><span data-icon="search"></span><input id="commandInput" type="search" aria-label="Search dashboard or page" placeholder="Search a dashboard or a report page..." autocomplete="off" spellcheck="false"><button class="command-close" data-action="close-search" type="button">ESC</button></div>
+      <div id="commandResults" class="command-results"></div>
+      <div class="command-hint"><span>Search across 16 dashboards and 69 pages</span><span><kbd>↑</kbd><kbd>↓</kbd> move &nbsp; <kbd>↵</kbd> open</span></div>
+    </section>
+  </div>
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Fullscreen report screenshot viewer">
+    <div class="lightbox-top"><div class="lightbox-title"><span class="lightbox-overline">IMAGE VIEWER</span><b id="lightboxTitle"></b><small id="lightboxCounter"></small></div><div class="lightbox-actions"><button type="button" class="lite-tool" data-action="lightbox-zoom-out" title="Zoom out" aria-label="Zoom out"><span data-icon="minus"></span></button><span class="zoom-readout" id="zoomReadout">100%</span><button type="button" class="lite-tool" data-action="lightbox-zoom-in" title="Zoom in" aria-label="Zoom in"><span data-icon="plus"></span></button><button type="button" class="lite-tool" data-action="lightbox-reset" title="Fit image" aria-label="Fit image"><span data-icon="maximize"></span></button><span class="toolbar-vline"></span><button type="button" class="lite-tool" id="slideshowButton" data-action="slideshow" title="Start slideshow" aria-label="Start slideshow" aria-pressed="false"><span data-icon="play"></span></button><button type="button" class="lite-tool" data-action="lightbox-fullscreen" title="Toggle fullscreen" aria-label="Toggle fullscreen"><span data-icon="expand"></span></button><button type="button" class="lite-tool lightbox-dismiss" data-action="close-lightbox" title="Close viewer" aria-label="Close viewer"><span data-icon="x"></span></button></div></div>
+    <div class="lightbox-body"><button type="button" class="lightbox-arrow arrow-left" data-action="previous" aria-label="Previous page"><span data-icon="chevron-left"></span></button><div id="lightboxViewport" class="lightbox-viewport"><img id="lightboxImage" alt="" draggable="false"></div><button type="button" class="lightbox-arrow arrow-right" data-action="next" aria-label="Next page"><span data-icon="chevron-right"></span></button></div>
+    <div class="lightbox-bottom"><span>Scroll to zoom · Drag to pan · Arrow keys to change pages</span><button type="button" data-action="lightbox-reset" class="lightbox-fit">Fit to screen</button></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

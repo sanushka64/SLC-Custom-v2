@@ -1,0 +1,754 @@
+/* Static showcase catalog: all screenshot paths are local. */
+window.DASHBOARD_CATALOG = [
+  {
+    "id": "accounting-revenue",
+    "title": "Accounting Revenue",
+    "description": "Revenue collection & accounting insights",
+    "color": "#0091ff",
+    "sections": [
+      {
+        "id": "revenue-dashboard",
+        "title": "Revenue Dashboard",
+        "pages": [
+          {
+            "id": "executive-summary",
+            "title": "Executive Summary",
+            "image": "assets/dash-executive-summary.png",
+            "source": "Original website / dash-executive-summary.png",
+            "preview": "assets/previews/accounting-revenue--revenue-dashboard--executive-summary.webp"
+          },
+          {
+            "id": "revenue-analysis",
+            "title": "Revenue Analysis",
+            "image": "assets/dash-revenue-analysis.png",
+            "source": "Original website / dash-revenue-analysis.png",
+            "preview": "assets/previews/accounting-revenue--revenue-dashboard--revenue-analysis.webp"
+          },
+          {
+            "id": "revenue-components",
+            "title": "Revenue Components",
+            "image": "assets/dash-revenue-components.png",
+            "source": "Original website / dash-revenue-components.png",
+            "preview": "assets/previews/accounting-revenue--revenue-dashboard--revenue-components.webp"
+          },
+          {
+            "id": "ai-analysis",
+            "title": "AI Analysis",
+            "image": "assets/dash-ai-analysis.png",
+            "source": "Original website / dash-ai-analysis.png",
+            "preview": "assets/previews/accounting-revenue--revenue-dashboard--ai-analysis.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 4,
+    "cover": "assets/previews/accounting-revenue--revenue-dashboard--executive-summary.webp"
+  },
+  {
+    "id": "advanced-search",
+    "title": "Advanced Search",
+    "description": "Search and analyze customs data",
+    "color": "#0091ff",
+    "sections": [
+      {
+        "id": "advanced-search",
+        "title": "Advanced Search",
+        "pages": [
+          {
+            "id": "home",
+            "title": "Home",
+            "image": "assets/screenshots/advanced-search/advanced-search--home.png",
+            "source": "Advanced Search Dashboard/Home.png",
+            "preview": "assets/previews/advanced-search--advanced-search--home.webp"
+          },
+          {
+            "id": "search-import-basic",
+            "title": "Search Import Basic",
+            "image": "assets/screenshots/advanced-search/advanced-search--search-import-basic.png",
+            "source": "Advanced Search Dashboard/Search Import Basic.png",
+            "preview": "assets/previews/advanced-search--advanced-search--search-import-basic.webp"
+          },
+          {
+            "id": "search-cusdec-and-item-basic",
+            "title": "Search CusDec & Item Basic",
+            "image": "assets/screenshots/advanced-search/advanced-search--search-cusdec-and-item-basic.png",
+            "source": "Advanced Search Dashboard/Search CusDec & Item Basic.png",
+            "preview": "assets/previews/advanced-search--advanced-search--search-cusdec-and-item-basic.webp"
+          },
+          {
+            "id": "filters-pane-1",
+            "title": "Filters Pane 1",
+            "image": "assets/screenshots/advanced-search/advanced-search--filters-pane-1.png",
+            "source": "Advanced Search Dashboard/Filters pane 1.png",
+            "preview": "assets/previews/advanced-search--advanced-search--filters-pane-1.webp"
+          },
+          {
+            "id": "filter-pane-2",
+            "title": "Filters Pane 2",
+            "image": "assets/screenshots/advanced-search/advanced-search--filter-pane-2.png",
+            "source": "Advanced Search Dashboard/Filter pane 2.png",
+            "preview": "assets/previews/advanced-search--advanced-search--filter-pane-2.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 5,
+    "cover": "assets/previews/advanced-search--advanced-search--home.webp"
+  },
+  {
+    "id": "advanced-warehouse",
+    "title": "Advanced Warehouse",
+    "description": "Warehouse commodity history and insights",
+    "color": "#2563eb",
+    "sections": [
+      {
+        "id": "advanced-warehouse",
+        "title": "Advanced Warehouse",
+        "pages": [
+          {
+            "id": "commodity-history",
+            "title": "Commodity History",
+            "image": "assets/screenshots/advanced-warehouse/advanced-warehouse--commodity-history.png",
+            "source": "Advanced Warehouse Dashboard/Commodity History.png",
+            "preview": "assets/previews/advanced-warehouse--advanced-warehouse--commodity-history.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 1,
+    "cover": "assets/previews/advanced-warehouse--advanced-warehouse--commodity-history.webp"
+  },
+  {
+    "id": "cusdec-analysis",
+    "title": "CusDec Analysis",
+    "description": "CusDec data analysis and trends",
+    "color": "#8b5cf6",
+    "sections": [
+      {
+        "id": "cusdec-analysis",
+        "title": "CusDec Analysis",
+        "pages": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "image": "assets/screenshots/cusdec-analysis/cusdec-analysis--overview.png",
+            "source": "CusDec Analysis Dashboard/Overview.png",
+            "preview": "assets/previews/cusdec-analysis--cusdec-analysis--overview.webp"
+          },
+          {
+            "id": "detailed-view",
+            "title": "Detailed View",
+            "image": "assets/screenshots/cusdec-analysis/cusdec-analysis--detailed-view.png",
+            "source": "CusDec Analysis Dashboard/Detailed View.png",
+            "preview": "assets/previews/cusdec-analysis--cusdec-analysis--detailed-view.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 2,
+    "cover": "assets/previews/cusdec-analysis--cusdec-analysis--overview.webp"
+  },
+  {
+    "id": "export",
+    "title": "Export",
+    "description": "Export data and performance",
+    "color": "#10b981",
+    "sections": [
+      {
+        "id": "export",
+        "title": "Export",
+        "pages": [
+          {
+            "id": "status-summary",
+            "title": "Status Summary",
+            "image": "assets/screenshots/export/export--status-summary.png",
+            "source": "Export Dashboard/Status Summary.png",
+            "preview": "assets/previews/export--export--status-summary.webp"
+          },
+          {
+            "id": "exit-summary",
+            "title": "Exit Summary",
+            "image": "assets/screenshots/export/export--exit-summary.png",
+            "source": "Export Dashboard/Exit Summary.png",
+            "preview": "assets/previews/export--export--exit-summary.webp"
+          },
+          {
+            "id": "comodity-view",
+            "title": "Commodity View",
+            "image": "assets/screenshots/export/export--comodity-view.png",
+            "source": "Export Dashboard/Comodity View.png",
+            "preview": "assets/previews/export--export--comodity-view.webp"
+          },
+          {
+            "id": "detailed-view",
+            "title": "Detailed View",
+            "image": "assets/screenshots/export/export--detailed-view.png",
+            "source": "Export Dashboard/Detailed View.png",
+            "preview": "assets/previews/export--export--detailed-view.webp"
+          },
+          {
+            "id": "map-view",
+            "title": "Map View",
+            "image": "assets/screenshots/export/export--map-view.png",
+            "source": "Export Dashboard/Map View.png",
+            "preview": "assets/previews/export--export--map-view.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 5,
+    "cover": "assets/previews/export--export--status-summary.webp"
+  },
+  {
+    "id": "import-analysis",
+    "title": "Import Analysis",
+    "description": "Import trends and analytics",
+    "color": "#8b5cf6",
+    "sections": [
+      {
+        "id": "import-analysis",
+        "title": "Import Analysis",
+        "pages": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "image": "assets/screenshots/import-analysis/import-analysis--overview.png",
+            "source": "Import Analysis Dashboard/OverView.png",
+            "preview": "assets/previews/import-analysis--import-analysis--overview.webp"
+          },
+          {
+            "id": "revenue-drivers",
+            "title": "Revenue Drivers",
+            "image": "assets/screenshots/import-analysis/import-analysis--revenue-drivers.png",
+            "source": "Import Analysis Dashboard/Revenue Drivers.png",
+            "preview": "assets/previews/import-analysis--import-analysis--revenue-drivers.webp"
+          },
+          {
+            "id": "gains-and-losses",
+            "title": "Gains & Losses",
+            "image": "assets/screenshots/import-analysis/import-analysis--gains-and-losses.png",
+            "source": "Import Analysis Dashboard/Gains & Losses.png",
+            "preview": "assets/previews/import-analysis--import-analysis--gains-and-losses.webp"
+          },
+          {
+            "id": "tax-breakdown",
+            "title": "Tax Breakdown",
+            "image": "assets/screenshots/import-analysis/import-analysis--tax-breakdown.png",
+            "source": "Import Analysis Dashboard/Tax Breakdown.png",
+            "preview": "assets/previews/import-analysis--import-analysis--tax-breakdown.webp"
+          },
+          {
+            "id": "import-origins",
+            "title": "Import Origins",
+            "image": "assets/screenshots/import-analysis/import-analysis--import-origins.png",
+            "source": "Import Analysis Dashboard/Import Origins.png",
+            "preview": "assets/previews/import-analysis--import-analysis--import-origins.webp"
+          },
+          {
+            "id": "office-codes",
+            "title": "Office Codes",
+            "image": "assets/screenshots/import-analysis/import-analysis--office-codes.png",
+            "source": "Import Analysis Dashboard/Office Codes.png",
+            "preview": "assets/previews/import-analysis--import-analysis--office-codes.webp"
+          },
+          {
+            "id": "treemap-detailed",
+            "title": "Treemap Detailed",
+            "image": "assets/screenshots/import-analysis/import-analysis--treemap-detailed.png",
+            "source": "Import Analysis Dashboard/Treemap Detailed.png",
+            "preview": "assets/previews/import-analysis--import-analysis--treemap-detailed.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 7,
+    "cover": "assets/previews/import-analysis--import-analysis--overview.webp"
+  },
+  {
+    "id": "import-container-movements",
+    "title": "Import Container Movements",
+    "description": "FCL imports, container flow and yard monitoring",
+    "color": "#f59e0b",
+    "sections": [
+      {
+        "id": "fcl-imports-dashboard",
+        "title": "FCL Imports Dashboard",
+        "pages": [
+          {
+            "id": "container-movement-summary",
+            "title": "Container Movement Summary",
+            "image": "assets/screenshots/import-container-movements/fcl-imports-dashboard--container-movement-summary.png",
+            "source": "Import Container Movements Dashboard/FCL Imports Dashboard/Container Movement Summary.png",
+            "preview": "assets/previews/import-container-movements--fcl-imports-dashboard--container-movement-summary.webp"
+          },
+          {
+            "id": "yard-status-summary",
+            "title": "Yard Status Summary",
+            "image": "assets/screenshots/import-container-movements/fcl-imports-dashboard--yard-status-summary.png",
+            "source": "Import Container Movements Dashboard/FCL Imports Dashboard/Yard Status Summary.png",
+            "preview": "assets/previews/import-container-movements--fcl-imports-dashboard--yard-status-summary.webp"
+          },
+          {
+            "id": "yard-status-container-summary",
+            "title": "Yard Status Container Summary",
+            "image": "assets/screenshots/import-container-movements/fcl-imports-dashboard--yard-status-container-summary.png",
+            "source": "Import Container Movements Dashboard/FCL Imports Dashboard/Yard Status Container Summary.png",
+            "preview": "assets/previews/import-container-movements--fcl-imports-dashboard--yard-status-container-summary.webp"
+          },
+          {
+            "id": "yard-status-performance",
+            "title": "Yard Status Performance",
+            "image": "assets/screenshots/import-container-movements/fcl-imports-dashboard--yard-status-performance.png",
+            "source": "Import Container Movements Dashboard/FCL Imports Dashboard/Yard Status Performance.png",
+            "preview": "assets/previews/import-container-movements--fcl-imports-dashboard--yard-status-performance.webp"
+          }
+        ]
+      },
+      {
+        "id": "fcl-imports-advance-dashboard",
+        "title": "FCL Imports Advance Dashboard",
+        "pages": [
+          {
+            "id": "container-flow",
+            "title": "Container Flow",
+            "image": "assets/screenshots/import-container-movements/fcl-imports-advance-dashboard--container-flow.png",
+            "source": "Import Container Movements Dashboard/FCL Imports Advance Dashboard/Container Flow.png",
+            "preview": "assets/previews/import-container-movements--fcl-imports-advance-dashboard--container-flow.webp"
+          },
+          {
+            "id": "geographical-map",
+            "title": "Geographical Map",
+            "image": "assets/screenshots/import-container-movements/fcl-imports-advance-dashboard--geographical-map.png",
+            "source": "Import Container Movements Dashboard/FCL Imports Advance Dashboard/Geographical Map.png",
+            "preview": "assets/previews/import-container-movements--fcl-imports-advance-dashboard--geographical-map.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 6,
+    "cover": "assets/previews/import-container-movements--fcl-imports-dashboard--container-movement-summary.webp"
+  },
+  {
+    "id": "investigation-individuals",
+    "title": "Investigation & Individuals",
+    "description": "Investigations and individual profiles",
+    "color": "#ef4444",
+    "sections": [
+      {
+        "id": "investigation-and-individuals",
+        "title": "Investigation & Individuals",
+        "pages": [
+          {
+            "id": "summary",
+            "title": "Summary",
+            "image": "assets/screenshots/investigation-individuals/investigation-and-individuals--summary.png",
+            "source": "Investigation and Individuals Dashboard/Summary.png",
+            "preview": "assets/previews/investigation-individuals--investigation-and-individuals--summary.webp"
+          },
+          {
+            "id": "pending-investigations",
+            "title": "Pending Investigations",
+            "image": "assets/screenshots/investigation-individuals/investigation-and-individuals--pending-investigations.png",
+            "source": "Investigation and Individuals Dashboard/Pending Investigations.png",
+            "preview": "assets/previews/investigation-individuals--investigation-and-individuals--pending-investigations.webp"
+          },
+          {
+            "id": "closed-investigations",
+            "title": "Closed Investigations",
+            "image": "assets/screenshots/investigation-individuals/investigation-and-individuals--closed-investigations.png",
+            "source": "Investigation and Individuals Dashboard/Closed Investigations.png",
+            "preview": "assets/previews/investigation-individuals--investigation-and-individuals--closed-investigations.webp"
+          },
+          {
+            "id": "detailed",
+            "title": "Detailed",
+            "image": "assets/screenshots/investigation-individuals/investigation-and-individuals--detailed.png",
+            "source": "Investigation and Individuals Dashboard/Detailed.png",
+            "preview": "assets/previews/investigation-individuals--investigation-and-individuals--detailed.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 4,
+    "cover": "assets/previews/investigation-individuals--investigation-and-individuals--summary.webp"
+  },
+  {
+    "id": "lcl",
+    "title": "LCL",
+    "description": "Less-than-container-load operations and movements",
+    "color": "#0284c7",
+    "sections": [
+      {
+        "id": "lcl",
+        "title": "LCL",
+        "pages": [
+          {
+            "id": "movement-summary",
+            "title": "Movement Summary",
+            "image": "assets/screenshots/lcl/lcl--movement-summary.png",
+            "source": "LCL Dashboard/Movement Summary.png",
+            "preview": "assets/previews/lcl--lcl--movement-summary.webp"
+          },
+          {
+            "id": "con-and-dec-breakdown",
+            "title": "CON & DEC Breakdown",
+            "image": "assets/screenshots/lcl/lcl--con-and-dec-breakdown.png",
+            "source": "LCL Dashboard/CON & DEC Breakdown.png",
+            "preview": "assets/previews/lcl--lcl--con-and-dec-breakdown.webp"
+          },
+          {
+            "id": "commodity-view",
+            "title": "Commodity View",
+            "image": "assets/screenshots/lcl/lcl--commodity-view.png",
+            "source": "LCL Dashboard/Commodity View.png",
+            "preview": "assets/previews/lcl--lcl--commodity-view.webp"
+          },
+          {
+            "id": "warehouse-view",
+            "title": "Warehouse View",
+            "image": "assets/screenshots/lcl/lcl--warehouse-view.png",
+            "source": "LCL Dashboard/Warehouse View.png",
+            "preview": "assets/previews/lcl--lcl--warehouse-view.webp"
+          },
+          {
+            "id": "map-view",
+            "title": "Map View",
+            "image": "assets/screenshots/lcl/lcl--map-view.png",
+            "source": "LCL Dashboard/Map View.png",
+            "preview": "assets/previews/lcl--lcl--map-view.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 5,
+    "cover": "assets/previews/lcl--lcl--movement-summary.webp"
+  },
+  {
+    "id": "relief-revenue",
+    "title": "Relief Revenue",
+    "description": "Relief revenue tracking",
+    "color": "#10b981",
+    "sections": [
+      {
+        "id": "relief-revenue",
+        "title": "Relief Revenue",
+        "pages": [
+          {
+            "id": "executive-summary",
+            "title": "Executive Summary",
+            "image": "assets/screenshots/relief-revenue/relief-revenue--executive-summary.png",
+            "source": "Relief Revenue Dashboard/Executive Summary.png",
+            "preview": "assets/previews/relief-revenue--relief-revenue--executive-summary.webp"
+          },
+          {
+            "id": "code-and-yearly-summary",
+            "title": "Code & Yearly Summary",
+            "image": "assets/screenshots/relief-revenue/relief-revenue--code-and-yearly-summary.png",
+            "source": "Relief Revenue Dashboard/Code & Yearly Summary.png",
+            "preview": "assets/previews/relief-revenue--relief-revenue--code-and-yearly-summary.webp"
+          },
+          {
+            "id": "consignee-and-declarant-analysis",
+            "title": "Consignee & Declarant Analysis",
+            "image": "assets/screenshots/relief-revenue/relief-revenue--consignee-and-declarant-analysis.png",
+            "source": "Relief Revenue Dashboard/Consignee & Declarant Analysis.png",
+            "preview": "assets/previews/relief-revenue--relief-revenue--consignee-and-declarant-analysis.webp"
+          },
+          {
+            "id": "map-view",
+            "title": "Map View",
+            "image": "assets/screenshots/relief-revenue/relief-revenue--map-view.png",
+            "source": "Relief Revenue Dashboard/Map View.png",
+            "preview": "assets/previews/relief-revenue--relief-revenue--map-view.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 4,
+    "cover": "assets/previews/relief-revenue--relief-revenue--executive-summary.webp"
+  },
+  {
+    "id": "remittance",
+    "title": "Remittance",
+    "description": "Remittance analysis and reports",
+    "color": "#f59e0b",
+    "sections": [
+      {
+        "id": "remittance",
+        "title": "Remittance",
+        "pages": [
+          {
+            "id": "summary-view",
+            "title": "Summary View",
+            "image": "assets/screenshots/remittance/remittance--summary-view.png",
+            "source": "Remittance Dashboard/Summary View.png",
+            "preview": "assets/previews/remittance--remittance--summary-view.webp"
+          },
+          {
+            "id": "bank-view",
+            "title": "Bank View",
+            "image": "assets/screenshots/remittance/remittance--bank-view.png",
+            "source": "Remittance Dashboard/Bank View.png",
+            "preview": "assets/previews/remittance--remittance--bank-view.webp"
+          },
+          {
+            "id": "office-code-view",
+            "title": "Office Code View",
+            "image": "assets/screenshots/remittance/remittance--office-code-view.png",
+            "source": "Remittance Dashboard/Office Code View.png",
+            "preview": "assets/previews/remittance--remittance--office-code-view.webp"
+          },
+          {
+            "id": "terms-of-payment-view",
+            "title": "Terms of Payment View",
+            "image": "assets/screenshots/remittance/remittance--terms-of-payment-view.png",
+            "source": "Remittance Dashboard/Terms of Payment View.png",
+            "preview": "assets/previews/remittance--remittance--terms-of-payment-view.webp"
+          },
+          {
+            "id": "orphaned-remittance",
+            "title": "Orphaned Remittance",
+            "image": "assets/screenshots/remittance/remittance--orphaned-remittance.png",
+            "source": "Remittance Dashboard/Orphaned Remittance.png",
+            "preview": "assets/previews/remittance--remittance--orphaned-remittance.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 5,
+    "cover": "assets/previews/remittance--remittance--summary-view.webp"
+  },
+  {
+    "id": "risk-management",
+    "title": "Risk Management",
+    "description": "Risk analysis and monitoring",
+    "color": "#f97316",
+    "sections": [
+      {
+        "id": "risk-management",
+        "title": "Risk Management",
+        "pages": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "image": "assets/screenshots/risk-management/risk-management--overview.png",
+            "source": "Risk Management Dashboard/Overview.png",
+            "preview": "assets/previews/risk-management--risk-management--overview.webp"
+          },
+          {
+            "id": "oga-overview",
+            "title": "OGA Overview",
+            "image": "assets/screenshots/risk-management/risk-management--oga-overview.png",
+            "source": "Risk Management Dashboard/OGA Overview.png",
+            "preview": "assets/previews/risk-management--risk-management--oga-overview.webp"
+          },
+          {
+            "id": "scan-overview",
+            "title": "Scan Overview",
+            "image": "assets/screenshots/risk-management/risk-management--scan-overview.png",
+            "source": "Risk Management Dashboard/Scan Overview.png",
+            "preview": "assets/previews/risk-management--risk-management--scan-overview.webp"
+          },
+          {
+            "id": "fraud-view",
+            "title": "Fraud View",
+            "image": "assets/screenshots/risk-management/risk-management--fraud-view.png",
+            "source": "Risk Management Dashboard/Fraud View.png",
+            "preview": "assets/previews/risk-management--risk-management--fraud-view.webp"
+          },
+          {
+            "id": "fraud-table-view",
+            "title": "Fraud Table View",
+            "image": "assets/screenshots/risk-management/risk-management--fraud-table-view.png",
+            "source": "Risk Management Dashboard/Fraud Table View.png",
+            "preview": "assets/previews/risk-management--risk-management--fraud-table-view.webp"
+          },
+          {
+            "id": "commodities-view",
+            "title": "Commodities View",
+            "image": "assets/screenshots/risk-management/risk-management--commodities-view.png",
+            "source": "Risk Management Dashboard/Commodities View.png",
+            "preview": "assets/previews/risk-management--risk-management--commodities-view.webp"
+          },
+          {
+            "id": "item-count-wise-selectivity",
+            "title": "Item Count Wise Selectivity",
+            "image": "assets/screenshots/risk-management/risk-management--item-count-wise-selectivity.png",
+            "source": "Risk Management Dashboard/Item Count Wise Selectivity.png",
+            "preview": "assets/previews/risk-management--risk-management--item-count-wise-selectivity.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 7,
+    "cover": "assets/previews/risk-management--risk-management--overview.webp"
+  },
+  {
+    "id": "valuation-analysis",
+    "title": "Valuation Analysis",
+    "description": "Valuation trends and insights",
+    "color": "#8b5cf6",
+    "sections": [
+      {
+        "id": "valuation-analysis",
+        "title": "Valuation Analysis",
+        "pages": [
+          {
+            "id": "valuation-analysis-dashboard",
+            "title": "Valuation Analysis Dashboard",
+            "image": "assets/screenshots/valuation-analysis/valuation-analysis--valuation-analysis-dashboard.png",
+            "source": "Valuation Analysis Dashboard/Valuation Analysis/Valuation Analysis Dashboard.png",
+            "preview": "assets/previews/valuation-analysis--valuation-analysis--valuation-analysis-dashboard.webp"
+          },
+          {
+            "id": "valuation-analysis-summary",
+            "title": "Valuation Analysis Summary",
+            "image": "assets/screenshots/valuation-analysis/valuation-analysis--valuation-analysis-summary.png",
+            "source": "Valuation Analysis Dashboard/Valuation Analysis/Valuation Analysis Summary.png",
+            "preview": "assets/previews/valuation-analysis--valuation-analysis--valuation-analysis-summary.webp"
+          },
+          {
+            "id": "valuation-analysis-detailed",
+            "title": "Valuation Analysis Detailed",
+            "image": "assets/screenshots/valuation-analysis/valuation-analysis--valuation-analysis-detailed.png",
+            "source": "Valuation Analysis Dashboard/Valuation Analysis/Valuation Analysis Detailed.png",
+            "preview": "assets/previews/valuation-analysis--valuation-analysis--valuation-analysis-detailed.webp"
+          },
+          {
+            "id": "commodity-cusdec",
+            "title": "Commodity CusDec",
+            "image": "assets/screenshots/valuation-analysis/valuation-analysis--commodity-cusdec.png",
+            "source": "Valuation Analysis Dashboard/Valuation Analysis/Commodity CusDec.png",
+            "preview": "assets/previews/valuation-analysis--valuation-analysis--commodity-cusdec.webp"
+          },
+          {
+            "id": "consignee-or-declarant-anaysis",
+            "title": "Consignee or Declarant Analysis",
+            "image": "assets/screenshots/valuation-analysis/valuation-analysis--consignee-or-declarant-anaysis.png",
+            "source": "Valuation Analysis Dashboard/Valuation Analysis/Consignee or Declarant Anaysis.png",
+            "preview": "assets/previews/valuation-analysis--valuation-analysis--consignee-or-declarant-anaysis.webp"
+          }
+        ]
+      },
+      {
+        "id": "advanced-valuation-analysis",
+        "title": "Advanced Valuation Analysis",
+        "pages": [
+          {
+            "id": "non-referred-cusdec",
+            "title": "Non Referred CusDec",
+            "image": "assets/screenshots/valuation-analysis/advanced-valuation-analysis--non-referred-cusdec.png",
+            "source": "Valuation Analysis Dashboard/Advanced Valuation Analysis/Non Referred CusDec.png",
+            "preview": "assets/previews/valuation-analysis--advanced-valuation-analysis--non-referred-cusdec.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 6,
+    "cover": "assets/previews/valuation-analysis--valuation-analysis--valuation-analysis-dashboard.webp"
+  },
+  {
+    "id": "valuation-database",
+    "title": "Valuation Database",
+    "description": "Valuation data and geographical analysis",
+    "color": "#2563eb",
+    "sections": [
+      {
+        "id": "valuation-database",
+        "title": "Valuation Database",
+        "pages": [
+          {
+            "id": "dashboard",
+            "title": "Dashboard",
+            "image": "assets/screenshots/valuation-database/valuation-database--dashboard.png",
+            "source": "Valuation Database Dashboard/Dashboard.png",
+            "preview": "assets/previews/valuation-database--valuation-database--dashboard.webp"
+          },
+          {
+            "id": "ud-map",
+            "title": "UD Map",
+            "image": "assets/screenshots/valuation-database/valuation-database--ud-map.png",
+            "source": "Valuation Database Dashboard/UD Map.png",
+            "preview": "assets/previews/valuation-database--valuation-database--ud-map.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 2,
+    "cover": "assets/previews/valuation-database--valuation-database--dashboard.webp"
+  },
+  {
+    "id": "vehicle",
+    "title": "Vehicle",
+    "description": "Vehicle clearance and tracking",
+    "color": "#06b6d4",
+    "sections": [
+      {
+        "id": "vehicle",
+        "title": "Vehicle",
+        "pages": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "image": "assets/screenshots/vehicle/vehicle--overview.png",
+            "source": "Vehical Dashboard/Overview.png",
+            "preview": "assets/previews/vehicle--vehicle--overview.webp"
+          },
+          {
+            "id": "detailed",
+            "title": "Detailed",
+            "image": "assets/screenshots/vehicle/vehicle--detailed.png",
+            "source": "Vehical Dashboard/Detailed.png",
+            "preview": "assets/previews/vehicle--vehicle--detailed.webp"
+          },
+          {
+            "id": "value-range-analysis",
+            "title": "Value Range Analysis",
+            "image": "assets/screenshots/vehicle/vehicle--value-range-analysis.png",
+            "source": "Vehical Dashboard/Value Range Analysis.png",
+            "preview": "assets/previews/vehicle--vehicle--value-range-analysis.webp"
+          },
+          {
+            "id": "map-view",
+            "title": "Map View",
+            "image": "assets/screenshots/vehicle/vehicle--map-view.png",
+            "source": "Vehical Dashboard/Map View.png",
+            "preview": "assets/previews/vehicle--vehicle--map-view.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 4,
+    "cover": "assets/previews/vehicle--vehicle--overview.webp"
+  },
+  {
+    "id": "warehousing",
+    "title": "Warehousing",
+    "description": "Warehouse stock and summary analysis",
+    "color": "#00b7a5",
+    "sections": [
+      {
+        "id": "warehousing",
+        "title": "Warehousing",
+        "pages": [
+          {
+            "id": "overview",
+            "title": "Overview",
+            "image": "assets/screenshots/warehousing/warehousing--overview.png",
+            "source": "Warehousing Dashboard/Overview.png",
+            "preview": "assets/previews/warehousing--warehousing--overview.webp"
+          },
+          {
+            "id": "summary",
+            "title": "Summary",
+            "image": "assets/screenshots/warehousing/warehousing--summary.png",
+            "source": "Warehousing Dashboard/Summary.png",
+            "preview": "assets/previews/warehousing--warehousing--summary.webp"
+          }
+        ]
+      }
+    ],
+    "pageCount": 2,
+    "cover": "assets/previews/warehousing--warehousing--overview.webp"
+  }
+];
